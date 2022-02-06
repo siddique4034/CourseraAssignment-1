@@ -1,0 +1,124 @@
+body {
+    font-size: 15pt;
+    background-color: pink;
+}
+
+h1{
+  color: #EF5348;
+  text-align: center;
+  text-shadow: 0px 8px 8px #737373;
+  font-family: Quintessential;
+}
+
+.mncontainer{
+  background-color: #EF5348;
+  margin: 22px;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 10px;
+  box-shadow: 0px 5px 5px #737373;
+  font-family: Quintessential;
+}
+
+.container{
+  float: right;
+  padding-right: 5px;
+  border-style: solid;
+  border-width: 1px;
+  background-color: pink;
+  color: #EF5348;
+  border-top-right-radius: 5px;
+  border-bottom-left-radius: 10px;
+}
+
+.para{
+  padding: 8px;
+  color: pink;
+  text-shadow: 3px 3px 3px black;
+}
+
+
+
+@media only screen and (max-width: 768px) {
+ 
+h1{
+  color: #EF5348;
+  text-align: center;
+  text-shadow: 0px 8px 8px #737373;
+  font-family: Quintessential;
+}
+
+.mncontainer{
+  background-color: #EF5348;
+  margin: 22px;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 10px;
+  box-shadow: 0px 5px 5px #737373;
+  font-family: Quintessential;
+}
+
+.container{
+  float: right;
+  padding-right: 5px;
+  border-style: solid;
+  border-width: 1px;
+  background-color: pink;
+  color: #EF5348;
+  border-top-right-radius: 5px;
+  border-bottom-left-radius: 10px;
+}
+
+.para{
+  padding: 8px;
+  color: pink;
+  text-shadow: 3px 3px 3px black;
+}
+
+}
+
+@media only screen and (min-width: 991px){
+  h1{
+  color: #EF5348;
+  text-align: center;
+  text-shadow: 0px 8px 8px #737373;
+  font-family: Quintessential;
+}
+.mncontainer{
+  background-color: #EF5348;
+  float: left;
+  width: 28%;
+  margin: 22px;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 10px;
+  box-shadow: 0px 5px 5px #737373;
+  font-family: Quintessential;
+}
+.container{
+  float: right;
+  padding-right: 5px;
+  border-style: solid;
+  border-width: 1px;
+  background-color: pink;
+  color: #EF5348;
+  border-top-right-radius: 5px;
+  border-bottom-left-radius: 10px;
+}
+.para{
+  padding: 8px;
+  color: pink;
+  text-shadow: 3px 3px 3px black;
+}
+
+}
+
+@media only screen and (max-width: 991px) and (min-width: 768px) {
+ .mncontainer{
+   float: left;
+   width: 43%;
+ }
+ #container3{
+   width: 92%;
+ }
+}
